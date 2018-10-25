@@ -86,6 +86,10 @@ input[type=submit] {
     padding: 0 10px;
 }
 
+.top-nav li:hover {
+    color: #4aaaa5;
+}
+
 .main-content {
     width: 890px;
     padding: 35px;
@@ -114,20 +118,24 @@ input[type=submit] {
     overflow: auto;
 }
 
-.image-gallery {
-    
+.gallery {
+    float: left;
+    margin: 20px;
 }
 
-.image-gallery img{
-    float: left;
+.gallery:hover {
+    border: 3px solid #666666;
+}
+
+
+.gallery img{
     width: 240px;
     height: 240px;
-    padding: 20px 20px 0px 0px;
     object-fit: cover;
 }
 
-.text-block h3{
-    /* position: absolute; */
+.gallery h3{
+    position: absolute;
     margin: -70px 0px 0px 0px;
     padding: 20px;
     width: 200px;
